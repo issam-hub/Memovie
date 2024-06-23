@@ -3,7 +3,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ## Getting Started
 - First go to this link [Gemini](https://aistudio.google.com/app/apikey) to get the gemini api key
 - create a file named `.env.local` in the root of the repo and add this line to it:  
-> `API_KEY=your_api_key`
+> `API_KEY=your_api_key`  
 Second, run the development server:
 
 ```bash
