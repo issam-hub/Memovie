@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+li {
+    list-style-type: none;
+}
+*{
+    font-family: var(--font-opensans);
+}
+*.big {
+    font-family: var(--font-poppins);
+}
+
+.container {
+    @apply mobile:w-full mobile:px-[10px] xs:w-[550px] sm:w-[700px] md:w-[850px] lg:w-[1100px] xl:w-[1400px] mx-auto;
+}
+
+textarea[name="input"]::-webkit-scrollbar{
+    background-color: transparent;
+    width: 6px;
+}
+textarea[name="input"]::-webkit-scrollbar-thumb{
+    background-color: rgb(71 85 105);
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+textarea[name="input"]::-webkit-scrollbar-thumb:hover{
+    background-color: rgb(100 116 139);
+}
